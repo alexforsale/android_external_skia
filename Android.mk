@@ -568,7 +568,7 @@ LOCAL_STATIC_LIBRARIES := \
 	libwebp-encode
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
-	LOCAL_WHOLE_STATIC_LIBRARIES += libqc-skia
+	#LOCAL_WHOLE_STATIC_LIBRARIES += libqc-skia
 endif
 
 
